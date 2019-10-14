@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,500,700,900&display=swap" rel="stylesheet">
+	<style type="text/css">
+		html{font-family: 'Noto Sans KR', sans-serif;}
+		body{margin:0; padding: 0;}
+
+		.wrap{width: 1600px; margin: auto; 
+			background: none; 
+			height: 850px; position: relative;}
+		footer .wrap{width: 100%; height: 300px;}
+		footer p{text-align: center; 
+			left: calc(50% - 200px);
+			word-spacing: 0px;	
+			letter-spacing: 0px;
+			color: gray; 
+			font-weight: 300; 
+			opacity: 1; 
+			font-size: 15px;
+			top: 170px;}
+
+		img{position: absolute;}
+
+		@keyframes op1{
+			from{top:250px; opacity: 0;}
+			to{top:170px; opacity: 1;}
+		}
+		@keyframes op2{
+			from{opacity: 0;}
+			to{opacity: 1;}
+		}
+		@keyframes op3{
+			from{opacity: 1;}
+			to{opacity: 0;}
+		}
+		@keyframes op4{
+			from{top:260px;opacity: 0;}
+			to{top:240px;opacity: 1;}
+		}
+		@keyframes op5{
+			from{opacity: 0.3;}
+			to{opacity: 1;}
+		}
+		@keyframes co1{
+			from{color: black;}
+			to{color: white;}
+		}
+		h2{font-weight: 900;font-size: 60px;
+			letter-spacing: -1px;
+			margin: 0;
+			padding:0;
+			color: black;
+			opacity: 0;
+			position: absolute;}
+		p{font-weight: 500; font-size: 20px;
+			word-spacing: -0.5px;
+			letter-spacing: -1px;
+			line-height: 1.5;
+			margin: 0;
+			padding:0;
+			color: gray;
+			position: absolute;
+			opacity: 0;
+			}
+
+		#logo{width: 700px; left: 500px; top: 250px;}
+		
+		#monitor{position: fixed; background-color: black;
+		 top: 0; right: 0; padding: 5px;
+		 width: 100px; height: 20px;
+		 color: yellow;}
+
+		#hired{width: 950px; left: 600px; opacity: 0;}
+
+		#t1{left: 300px; top: 170px;}
+		#t2{left: 330px; top: 280px;}
+		#t3{left: 500px; top: 150px;}
+		#t4{left: 530px; top: 380px;}
+		#t5{left: 390px; top: 250px;}
+		#t6{left: 550px; top: 550px;}
+		#t7{left: 900px; top: 230px;}
+		#t8{left: 930px; top: 440px;}
+		#t9{left: 650px; top: 180px; color: black; opacity: 1;}
+		#t10{left: 580px; top: 200px;
+			opacity: 1; }
+
+		#con1{transform: rotate(20deg);left: 50px; width: 420px;}
+		#con2{transform: rotate(-30deg);top: 550px; left: 150px;}
+		#con3{transform: rotate(-68deg);top: 680px; left: 330px; width: 480px;}
+		#con4{transform: rotate(-200deg);top: 50px; left: 930px; width: 500px;}
+		#con5{transform: rotate(-170deg);top: 190px; left: 1050px; width: 540px;}
+		#con6{transform: rotate(-140deg);top: 550px; left: 1050px; width: 450px;}
+		
+		#a{background: url(all1.png); 
+			background-attachment: fixed; background-size: cover;}
+		#b{background: url(all2.png); 
+			background-attachment: fixed; background-size: cover;}
+		#c{background: url(all3.png); 
+			background-attachment: fixed; background-size: cover;}
+
+		#col1{top: 400px; left: 180px;}
+		#col2{top:400px; left: 830px;}
+		#col3{top: 900px; left: 180px;}
+		#col4{top: 900px; left: 830px;}
+		#col5{top: 1400px; left: 180px;}
+		#col6{top: 1400px; left: 830px;}
+		#col7{top: 1900px; left: 180px;}
+		#col8{top: 1900px; left: 830px;}
+		#col9{top: 2500px; left: 180px;}
+		#col10{top: 2500px;left: 830px;}
+
+		.color{width: 400px; top: 150px; opacity: 0;}
+		.col{width: 600px; opacity: 0.3; }
+		.collabo{height: 3200px; background-color: black;
+			position: relative; width: 1600px;	}
+		.precolla{width: 1600px; margin: auto; height: 400px; position: sticky; top: 0;}
+		div.sticky{position: sticky; top: 150px;}
+
+	</style>
+	<title>Converse</title>
+</head>
+<body>
+	<header>
+		<div class="wrap">
+			<img src="logo.png" 
+			style="position: fixed;" id="logo">
+		</div>
+	</header>
+	<section>
+		<div class="wrap">
+			<img src="hired.png" id="hired">
+			<h2 id="t1">
+			All About Converse
+			</h2>
+			<p id="t2">
+			캐주얼한 느낌부터 포멀한 디자인까지,<br>
+			converse만의 다양한 매력을 느껴보세요.<br>
+			너무 모범생같지도 않고 너무 불량해보이지도 않는<br>
+			컨버스의 디자인은 남여노소가 모두 만족할 수 있습니다.<br>
+			</p>
+		</div>
+	</section>
+	<section>
+		<div class="wrap">
+			<img src="1.png" class="color" id="con1">
+			<img src="2.png" class="color" id="con2">
+			<img src="3.png" class="color" id="con3">
+			<img src="4.png" class="color" id="con4">
+			<img src="5.png" class="color" id="con5">	
+			<img src="6.png" class="color" id="con6">
+			<h2 id="t3">
+			지금 떠올린 색이<br>그 어떤 색이라도.
+			</h2>
+			<p id="t4">
+			어떤 색이건 컨버스에서 만나볼 수 있습니다.<br>
+			클래식한 블랙부터 파스텔 컬러, 채도 높은 원색까지<br>
+			분위기에 맞춰, 기분에 따라 바꿔신어보세요.<br>
+			각각의 컬러는 어느 브랜드보다 독보적으로 매력적입니다.<br>
+			</p>
+		</div>
+	</section>
+	<section style="height: 300px;"></section>
+		<div id="a" class="wrap">
+			<h2 id="t5">
+			변하지 않지만 언제나 새로운 디자인.
+			</h2>
+		</div>
+		<div id="b" class="wrap">
+			<p id="t6"> 
+			컨버스에서는 매번 체크, 스트라이프, 애니멀 패턴, 가죽,<br>
+			청 재질 등 다양한 스타일이 새롭게 출시됩니다.<br>
+			굽의 형태와 끈의 모양을 바꿔 연출한 디자인은 <br>
+			항상 새로운 느낌을 전달합니다.
+			<p>
+			</div>
+		<div id="c" class="wrap"></div>
+	</section>
+	
+	<section>
+		<div class="wrap" >
+			<h2 id="t7">사이즈 걱정없이 <br>누구나 즐겁게.</h2>
+			<p id="t8">220mm부터 280mm까지의 넓은 사이즈 폭으로<br>
+			나에게 맞는 사이즈를 찾을 수 있습니다. 남여불문<br>
+			가족끼리, 연인끼리, 친구끼리 함께 신어보세요.<br>
+			</p>
+			<img src="small.png" style="width: 400px; left: 80px; opacity: 0;" id="small">
+			<img src="medium.png" style="width: 600px; left: 80px; opacity: 0;" id="medium">
+			<img src="big.png" style="width: 700px; top: 400px; left: 80px; opacity: 0;" id="big">
+		</div>
+	</section>
+	<section>
+		<div class="sticky precolla" style="z-index: 9999;">
+		<h2 id="t9">거침없는 변화</h2>
+		</div>
+		<div class="wrap collabo">
+			<p id="t10">다양한 브랜드와의 콜라보로 매번 새로워지는 컨버스를 만나보세요.</p>
+				<img src="col1.jpg" class="col" id="col1">
+				<img src="col2.jpg" class="col" id="col2">
+				<img src="col3.jpg" class="col" id="col3">
+				<img src="col4.jpg" class="col" id="col4">
+				<img src="col5.jpg" class="col" id="col5">
+				<img src="col6.png" class="col" id="col6">
+				<img src="col7.jpg" class="col" id="col7">
+				<img src="col8.jpg" class="col" id="col8">
+				<img src="col9.jpg" class="col" id="col9">
+				<img src="col10.jpg" class="col" id="col10">
+		</div>
+	</section>
+
+	<div id="monitor"></div>
+
+	<footer style="background-color: black;">
+		<div class="wrap">
+			<a href="https://www.converse.co.kr">
+				<img src="logo copy.png" 
+				style="height: 200px; left: 620px; top: 00px; z-index: 9999;" >
+			</a>
+			<p>
+			Copyrightⓒ2019 moonkyunga All rights reserved.
+			</p>
+		</div>
+	</footer>
+	
+	<script type="text/javascript">
+		window.onscroll = function(){
+		var t = document.documentElement.scrollTop + document.body.scrollTop;
+		monitor.innerHTML = t.toFixed(1);
+
+		if(t > 500){logo.style.animation = "op3 0s forwards";}
+		else{logo.style.animation = "";}
+
+		if(t > 550){hired.style.animation = "op2 1s forwards";}
+		else{hired.style.animation = "";}
+	
+		if(t > 600){t1.style.animation = "op1 1s forwards";}
+		else{t1.style.animation = "";}
+
+		if(t > 600){t2.style.animation = "op2 0.5s forwards";}
+		else{t2.style.animation = "";}
+
+		if(t > 1100){t3.style.animation = "op2 0.5s forwards";}
+		else{t3.style.animation = "";}
+
+		if(t > 1300){t4.style.animation = "op2 0.5s forwards";}
+		else{t4.style.animation = "";}
+
+		if(t > 1350){con1.style.animation = "op2 0.5s forwards";}
+		else{con1.style.animation = "";}
+		if(t > 1450){con2.style.animation = "op2 0.5s forwards";}
+		else{con2.style.animation = "";}
+		if(t > 1550){con3.style.animation = "op2 0.5s forwards";}
+		else{con3.style.animation = "";}
+		if(t > 1650){con4.style.animation = "op2 0.5s forwards";}
+		else{con4.style.animation = "";}
+		if(t > 1730){con5.style.animation = "op2 0.5s forwards";}
+		else{con5.style.animation = "";}
+		if(t > 1830){con6.style.animation = "op2 0.5s forwards";}
+		else{con6.style.animation = "";}
+
+		if(t > 2200){t5.style.animation = "op2 0.5s forwards";}
+		else{t5.style.animation = "";}
+		if(t > 3100){t6.style.animation = "op2 0.5s forwards";}
+		else{t6.style.animation = "";}
+
+		if(t > 4800){small.style.animation = "op2 0.5s forwards";}
+		else{small.style.animation = "";}
+		if(t > 4900){medium.style.animation = "op2 0.5s forwards";}
+		else{medium.style.animation = "";}
+		if(t > 5000){big.style.animation = "op2 0.5s forwards";}
+		else{big.style.animation = "";}
+
+		if(t > 5200){t7.style.animation = "op4 0.5s forwards";}
+		else{t7.style.animation = "";}
+		if(t > 5300){t8.style.animation = "op2 0.5s forwards";}
+		else{t8.style.animation = "";}
+
+		if(t > 6300){t9.style.animation = "co1 0s forwards";}
+		else{t9.style.animation = "";}
+		
+		if(t > 6000){t10.style.animation = "op2 0.5s forwards";}
+		else{t10.style.animation = "";}
+
+		if(t > 6700){col1.style.animation = "op5 0s forwards";}
+		else{col1.style.animation = "";}
+		if(t > 6700){col2.style.animation = "op5 0s forwards";}
+		else{col2.style.animation = "";}
+		if(t > 7220){col3.style.animation = "op5 0s forwards";}
+		else{col3.style.animation = "";}
+		if(t > 7220){col4.style.animation = "op5 0s forwards";}
+		else{col4.style.animation = "";}
+		if(t > 7700){col5.style.animation = "op5 0s forwards";}
+		else{col5.style.animation = "";}
+		if(t > 7700){col6.style.animation = "op5 0s forwards";}
+		else{col6.style.animation = "";}
+		if(t > 8240){col7.style.animation = "op5 0s forwards";}
+		else{col7.style.animation = "";}
+		if(t > 8240){col8.style.animation = "op5 0s forwards";}
+		else{col8.style.animation = "";}
+		if(t > 8820){col9.style.animation = "op5 0s forwards";}
+		else{col9.style.animation = "";}
+		if(t > 8820){col10.style.animation = "op5 0s forwards";}
+		else{col10.style.animation = "";}
+
+		if(t > 9170){t9.style.opacity = "0";}
+		else{t9.style.opacity = "1";}
+	}
+	</script>
+
+</body>
+</html>
